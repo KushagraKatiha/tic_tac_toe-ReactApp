@@ -1,0 +1,21 @@
+.grid-wrapper{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 130px 130px 130px ;
+}
+.turn-highlight{
+    color: aqua;
+}
+.reset{
+    padding: 2rem;
+    color: white;
+    background-color: #28a7;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
